@@ -471,13 +471,13 @@ sbi:
 #
 amf:
     sbi:
-      - addr: 127.0.0.5
-        port: 7777
+      - addr: 127.0.0.1
+        port: 1110
     ngap:
-      - addr: 127.0.0.5
+      - addr: 127.0.0.1
     metrics:
-      - addr: 127.0.0.5
-        port: 9090
+      - addr: 127.0.0.1
+        port: 1111
     guami:
       - plmn_id:
           mcc: 999
@@ -569,7 +569,7 @@ amf:
 #
 scp:
     sbi:
-      - addr: 127.0.1.10
+      - addr: 127.0.0.1
         port: 7777
 
 #

@@ -306,11 +306,11 @@ sbi:
 #
 nssf:
     sbi:
-      - addr: 127.0.0.14
-        port: 7777
+      - addr: 127.0.0.1
+        port: 6660
     nsi:
-      - addr: 127.0.0.10
-        port: 7777
+      - addr: 127.0.0.1
+        port: 6661
         s_nssai:
           sst: 1
 
@@ -380,7 +380,7 @@ nssf:
 #
 scp:
     sbi:
-      - addr: 127.0.1.10
+      - addr: 127.0.0.1
         port: 7777
 
 #

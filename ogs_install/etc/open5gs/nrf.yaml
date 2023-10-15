@@ -191,9 +191,8 @@ sbi:
 nrf:
     sbi:
       - addr:
-        - 127.0.0.10
-        - ::1
-        port: 7777
+        - 127.0.0.1
+        port: 7778
 
 #
 #  <SBI Client>>
@@ -261,7 +260,7 @@ nrf:
 #
 scp:
     sbi:
-      - addr: 127.0.1.10
+      - addr: 127.0.0.1
         port: 7777
 
 

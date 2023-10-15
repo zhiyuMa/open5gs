@@ -253,8 +253,8 @@ sbi:
 #
 bsf:
     sbi:
-      - addr: 127.0.0.15
-        port: 7777
+      - addr: 127.0.0.1
+        port: 9990
 
 #
 #  <SBI Client>>
@@ -322,7 +322,7 @@ bsf:
 #
 scp:
     sbi:
-      - addr: 127.0.1.10
+      - addr: 127.0.0.1
         port: 7777
 
 #

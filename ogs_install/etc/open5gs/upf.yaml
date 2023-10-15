@@ -196,15 +196,17 @@ logger:
 #
 upf:
     pfcp:
-      - addr: 127.0.0.7
+      - addr: 127.0.0.1
+        port: 3330
     gtpu:
-      - addr: 127.0.0.7
+      - addr: 127.0.0.1
+        port: 3331
     subnet:
       - addr: 10.45.0.1/16
       - addr: 2001:db8:cafe::1/48
     metrics:
-      - addr: 127.0.0.7
-        port: 9090
+      - addr: 127.0.0.1
+        port: 3332
 
 #
 #  <PFCP Client>>

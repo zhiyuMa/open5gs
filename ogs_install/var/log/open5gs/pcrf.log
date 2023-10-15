@@ -1,0 +1,544 @@
+Open5GS daemon v2.6.6-9-ge108d62
+
+10/14 01:23:44.074: [app] INFO: Configuration: '/home/mike/Project/open5gs/ogs_install/etc/open5gs/pcrf.yaml' (../lib/app/ogs-init.c:126)
+10/14 01:23:44.074: [app] INFO: File Logging: '/home/mike/Project/open5gs/ogs_install/var/log/open5gs/pcrf.log' (../lib/app/ogs-init.c:129)
+10/14 01:23:44.191: [dbi] INFO: MongoDB URI: 'mongodb://localhost/open5gs' (../lib/dbi/ogs-mongoc.c:130)
+10/14 01:23:44.327: [app] INFO: PCRF initialize...done (../src/pcrf/app-init.c:31)
+10/14 01:23:44.328: [diam] ERROR: pid:PSM/smf.localdomain in fd_p_ce_msgrcv@p_ce.c:747: ERROR: in '(save_remote_CE_info(*msg, peer, &pei, &rc))' :	Invalid argument
+ ((null):0)
+10/14 01:23:44.328: [diam] ERROR: pid:PSM/smf.localdomain in md_hook_cb_tree@dbg_msg_dumps.c:116: DROPPED 'Internal error ('smf.localdomain'): unhandled message.'
+ ((null):0)
+10/14 01:23:44.328: [diam] ERROR: pid:PSM/smf.localdomain in md_hook_cb_tree@dbg_msg_dumps.c:117:      'Capabilities-Exchange-Answer'
+ ((null):0)
+10/14 01:23:44.328: [diam] ERROR: pid:PSM/smf.localdomain in md_hook_cb_tree@dbg_msg_dumps.c:117:        Version: 0x01
+ ((null):0)
+10/14 01:23:44.328: [diam] ERROR: pid:PSM/smf.localdomain in md_hook_cb_tree@dbg_msg_dumps.c:117:        Length: 120
+ ((null):0)
+10/14 01:23:44.328: [diam] ERROR: pid:PSM/smf.localdomain in md_hook_cb_tree@dbg_msg_dumps.c:117:        Flags: 0x20 (--E-)
+ ((null):0)
+10/14 01:23:44.328: [diam] ERROR: pid:PSM/smf.localdomain in md_hook_cb_tree@dbg_msg_dumps.c:117:        Command Code: 257
+ ((null):0)
+10/14 01:23:44.328: [diam] ERROR: pid:PSM/smf.localdomain in md_hook_cb_tree@dbg_msg_dumps.c:117:        ApplicationId: 0
+ ((null):0)
+10/14 01:23:44.328: [diam] ERROR: pid:PSM/smf.localdomain in md_hook_cb_tree@dbg_msg_dumps.c:117:        Hop-by-Hop Identifier: 0x15BA8508
+ ((null):0)
+10/14 01:23:44.328: [diam] ERROR: pid:PSM/smf.localdomain in md_hook_cb_tree@dbg_msg_dumps.c:117:        End-to-End Identifier: 0x0106ECD6
+ ((null):0)
+10/14 01:23:44.328: [diam] ERROR: pid:PSM/smf.localdomain in md_hook_cb_tree@dbg_msg_dumps.c:117:         {internal data}: src:smf.localdomain(15) rwb:(nil) rt:2 cb:(nil),(nil)((nil)) qry:0x7f7f74000f80 asso:0 sess:(nil)
+ ((null):0)
+10/14 01:23:44.328: [diam] ERROR: pid:PSM/smf.localdomain in md_hook_cb_tree@dbg_msg_dumps.c:117:         AVP: 'Result-Code'(268) l=12 f=-M val='DIAMETER_UNKNOWN_PEER' (3010 (0xbc2))
+ ((null):0)
+10/14 01:23:44.328: [diam] ERROR: pid:PSM/smf.localdomain in md_hook_cb_tree@dbg_msg_dumps.c:117:         AVP: 'Error-Message'(281) l=29 f=-- val="DIAMETER_UNKNOWN_PEER"
+ ((null):0)
+10/14 01:23:44.328: [diam] ERROR: pid:PSM/smf.localdomain in md_hook_cb_tree@dbg_msg_dumps.c:117:         AVP: 'Origin-Host'(264) l=24 f=-M val="pcrf.localdomain"
+ ((null):0)
+10/14 01:23:44.328: [diam] ERROR: pid:PSM/smf.localdomain in md_hook_cb_tree@dbg_msg_dumps.c:117:         AVP: 'Origin-Realm'(296) l=19 f=-M val="localdomain"
+ ((null):0)
+10/14 01:23:44.328: [diam] ERROR: pid:PSM/smf.localdomain in md_hook_cb_tree@dbg_msg_dumps.c:117:         AVP: 'Origin-State-Id'(278) l=12 f=-M val=1697271824 (0x652a5010)
+ ((null):0)
+10/14 01:23:56.362: [app] INFO: SIGINT received (../src/main.c:53)
+10/14 01:23:56.362: [app] INFO: Open5GS daemon terminating... (../src/main.c:226)
+10/14 01:23:56.496: [app] INFO: PCRF terminate...done (../src/pcrf/app-init.c:39)
+Open5GS daemon v2.6.6-9-ge108d62
+
+10/14 01:26:41.518: [app] INFO: Configuration: '/home/mike/Project/open5gs/ogs_install/etc/open5gs/pcrf.yaml' (../lib/app/ogs-init.c:126)
+10/14 01:26:41.518: [app] INFO: File Logging: '/home/mike/Project/open5gs/ogs_install/var/log/open5gs/pcrf.log' (../lib/app/ogs-init.c:129)
+10/14 01:26:41.520: [dbi] INFO: MongoDB URI: 'mongodb://localhost/open5gs' (../lib/dbi/ogs-mongoc.c:130)
+10/14 01:26:41.598: [app] INFO: PCRF initialize...done (../src/pcrf/app-init.c:31)
+10/14 01:26:41.607: [diam] ERROR: pid:PSM/smf.localdomain in fd_p_ce_msgrcv@p_ce.c:747: ERROR: in '(save_remote_CE_info(*msg, peer, &pei, &rc))' :	Invalid argument
+ ((null):0)
+10/14 01:26:41.607: [diam] ERROR: pid:PSM/smf.localdomain in md_hook_cb_tree@dbg_msg_dumps.c:116: DROPPED 'Internal error ('smf.localdomain'): unhandled message.'
+ ((null):0)
+10/14 01:26:41.607: [diam] ERROR: pid:PSM/smf.localdomain in md_hook_cb_tree@dbg_msg_dumps.c:117:      'Capabilities-Exchange-Answer'
+ ((null):0)
+10/14 01:26:41.607: [diam] ERROR: pid:PSM/smf.localdomain in md_hook_cb_tree@dbg_msg_dumps.c:117:        Version: 0x01
+ ((null):0)
+10/14 01:26:41.607: [diam] ERROR: pid:PSM/smf.localdomain in md_hook_cb_tree@dbg_msg_dumps.c:117:        Length: 120
+ ((null):0)
+10/14 01:26:41.607: [diam] ERROR: pid:PSM/smf.localdomain in md_hook_cb_tree@dbg_msg_dumps.c:117:        Flags: 0x20 (--E-)
+ ((null):0)
+10/14 01:26:41.607: [diam] ERROR: pid:PSM/smf.localdomain in md_hook_cb_tree@dbg_msg_dumps.c:117:        Command Code: 257
+ ((null):0)
+10/14 01:26:41.607: [diam] ERROR: pid:PSM/smf.localdomain in md_hook_cb_tree@dbg_msg_dumps.c:117:        ApplicationId: 0
+ ((null):0)
+10/14 01:26:41.607: [diam] ERROR: pid:PSM/smf.localdomain in md_hook_cb_tree@dbg_msg_dumps.c:117:        Hop-by-Hop Identifier: 0x70EE1E55
+ ((null):0)
+10/14 01:26:41.607: [diam] ERROR: pid:PSM/smf.localdomain in md_hook_cb_tree@dbg_msg_dumps.c:117:        End-to-End Identifier: 0x0C1C9584
+ ((null):0)
+10/14 01:26:41.607: [diam] ERROR: pid:PSM/smf.localdomain in md_hook_cb_tree@dbg_msg_dumps.c:117:         {internal data}: src:smf.localdomain(15) rwb:(nil) rt:2 cb:(nil),(nil)((nil)) qry:0x7f8290000f90 asso:0 sess:(nil)
+ ((null):0)
+10/14 01:26:41.607: [diam] ERROR: pid:PSM/smf.localdomain in md_hook_cb_tree@dbg_msg_dumps.c:117:         AVP: 'Result-Code'(268) l=12 f=-M val='DIAMETER_UNKNOWN_PEER' (3010 (0xbc2))
+ ((null):0)
+10/14 01:26:41.607: [diam] ERROR: pid:PSM/smf.localdomain in md_hook_cb_tree@dbg_msg_dumps.c:117:         AVP: 'Error-Message'(281) l=29 f=-- val="DIAMETER_UNKNOWN_PEER"
+ ((null):0)
+10/14 01:26:41.607: [diam] ERROR: pid:PSM/smf.localdomain in md_hook_cb_tree@dbg_msg_dumps.c:117:         AVP: 'Origin-Host'(264) l=24 f=-M val="pcrf.localdomain"
+ ((null):0)
+10/14 01:26:41.607: [diam] ERROR: pid:PSM/smf.localdomain in md_hook_cb_tree@dbg_msg_dumps.c:117:         AVP: 'Origin-Realm'(296) l=19 f=-M val="localdomain"
+ ((null):0)
+10/14 01:26:41.607: [diam] ERROR: pid:PSM/smf.localdomain in md_hook_cb_tree@dbg_msg_dumps.c:117:         AVP: 'Origin-State-Id'(278) l=12 f=-M val=1697272001 (0x652a50c1)
+ ((null):0)
+10/14 01:26:50.886: [app] INFO: SIGINT received (../src/main.c:53)
+10/14 01:26:50.886: [app] INFO: Open5GS daemon terminating... (../src/main.c:226)
+10/14 01:26:50.999: [app] INFO: PCRF terminate...done (../src/pcrf/app-init.c:39)
+Open5GS daemon v2.6.6-9-ge108d62
+
+10/14 01:28:22.703: [app] INFO: Configuration: '/home/mike/Project/open5gs/ogs_install/etc/open5gs/pcrf.yaml' (../lib/app/ogs-init.c:126)
+10/14 01:28:22.703: [app] INFO: File Logging: '/home/mike/Project/open5gs/ogs_install/var/log/open5gs/pcrf.log' (../lib/app/ogs-init.c:129)
+10/14 01:28:22.705: [dbi] INFO: MongoDB URI: 'mongodb://localhost/open5gs' (../lib/dbi/ogs-mongoc.c:130)
+10/14 01:28:22.757: [app] INFO: PCRF initialize...done (../src/pcrf/app-init.c:31)
+10/14 01:28:22.774: [diam] ERROR: pid:PSM/smf.localdomain in fd_p_ce_msgrcv@p_ce.c:747: ERROR: in '(save_remote_CE_info(*msg, peer, &pei, &rc))' :	Invalid argument
+ ((null):0)
+10/14 01:28:22.774: [diam] ERROR: pid:PSM/smf.localdomain in md_hook_cb_tree@dbg_msg_dumps.c:116: DROPPED 'Internal error ('smf.localdomain'): unhandled message.'
+ ((null):0)
+10/14 01:28:22.774: [diam] ERROR: pid:PSM/smf.localdomain in md_hook_cb_tree@dbg_msg_dumps.c:117:      'Capabilities-Exchange-Answer'
+ ((null):0)
+10/14 01:28:22.774: [diam] ERROR: pid:PSM/smf.localdomain in md_hook_cb_tree@dbg_msg_dumps.c:117:        Version: 0x01
+ ((null):0)
+10/14 01:28:22.774: [diam] ERROR: pid:PSM/smf.localdomain in md_hook_cb_tree@dbg_msg_dumps.c:117:        Length: 120
+ ((null):0)
+10/14 01:28:22.774: [diam] ERROR: pid:PSM/smf.localdomain in md_hook_cb_tree@dbg_msg_dumps.c:117:        Flags: 0x20 (--E-)
+ ((null):0)
+10/14 01:28:22.774: [diam] ERROR: pid:PSM/smf.localdomain in md_hook_cb_tree@dbg_msg_dumps.c:117:        Command Code: 257
+ ((null):0)
+10/14 01:28:22.774: [diam] ERROR: pid:PSM/smf.localdomain in md_hook_cb_tree@dbg_msg_dumps.c:117:        ApplicationId: 0
+ ((null):0)
+10/14 01:28:22.774: [diam] ERROR: pid:PSM/smf.localdomain in md_hook_cb_tree@dbg_msg_dumps.c:117:        Hop-by-Hop Identifier: 0x05E02C0B
+ ((null):0)
+10/14 01:28:22.774: [diam] ERROR: pid:PSM/smf.localdomain in md_hook_cb_tree@dbg_msg_dumps.c:117:        End-to-End Identifier: 0x12680A05
+ ((null):0)
+10/14 01:28:22.774: [diam] ERROR: pid:PSM/smf.localdomain in md_hook_cb_tree@dbg_msg_dumps.c:117:         {internal data}: src:smf.localdomain(15) rwb:(nil) rt:2 cb:(nil),(nil)((nil)) qry:0x7fddf4000f80 asso:0 sess:(nil)
+ ((null):0)
+10/14 01:28:22.774: [diam] ERROR: pid:PSM/smf.localdomain in md_hook_cb_tree@dbg_msg_dumps.c:117:         AVP: 'Result-Code'(268) l=12 f=-M val='DIAMETER_UNKNOWN_PEER' (3010 (0xbc2))
+ ((null):0)
+10/14 01:28:22.774: [diam] ERROR: pid:PSM/smf.localdomain in md_hook_cb_tree@dbg_msg_dumps.c:117:         AVP: 'Error-Message'(281) l=29 f=-- val="DIAMETER_UNKNOWN_PEER"
+ ((null):0)
+10/14 01:28:22.774: [diam] ERROR: pid:PSM/smf.localdomain in md_hook_cb_tree@dbg_msg_dumps.c:117:         AVP: 'Origin-Host'(264) l=24 f=-M val="pcrf.localdomain"
+ ((null):0)
+10/14 01:28:22.774: [diam] ERROR: pid:PSM/smf.localdomain in md_hook_cb_tree@dbg_msg_dumps.c:117:         AVP: 'Origin-Realm'(296) l=19 f=-M val="localdomain"
+ ((null):0)
+10/14 01:28:22.774: [diam] ERROR: pid:PSM/smf.localdomain in md_hook_cb_tree@dbg_msg_dumps.c:117:         AVP: 'Origin-State-Id'(278) l=12 f=-M val=1697272102 (0x652a5126)
+ ((null):0)
+10/14 01:28:52.491: [diam] ERROR: pid:PSM/smf.localdomain in fd_p_ce_msgrcv@p_ce.c:747: ERROR: in '(save_remote_CE_info(*msg, peer, &pei, &rc))' :	Invalid argument
+ ((null):0)
+10/14 01:28:52.491: [diam] ERROR: pid:PSM/smf.localdomain in md_hook_cb_tree@dbg_msg_dumps.c:116: DROPPED 'Internal error ('smf.localdomain'): unhandled message.'
+ ((null):0)
+10/14 01:28:52.491: [diam] ERROR: pid:PSM/smf.localdomain in md_hook_cb_tree@dbg_msg_dumps.c:117:      'Capabilities-Exchange-Answer'
+ ((null):0)
+10/14 01:28:52.491: [diam] ERROR: pid:PSM/smf.localdomain in md_hook_cb_tree@dbg_msg_dumps.c:117:        Version: 0x01
+ ((null):0)
+10/14 01:28:52.491: [diam] ERROR: pid:PSM/smf.localdomain in md_hook_cb_tree@dbg_msg_dumps.c:117:        Length: 120
+ ((null):0)
+10/14 01:28:52.491: [diam] ERROR: pid:PSM/smf.localdomain in md_hook_cb_tree@dbg_msg_dumps.c:117:        Flags: 0x20 (--E-)
+ ((null):0)
+10/14 01:28:52.491: [diam] ERROR: pid:PSM/smf.localdomain in md_hook_cb_tree@dbg_msg_dumps.c:117:        Command Code: 257
+ ((null):0)
+10/14 01:28:52.491: [diam] ERROR: pid:PSM/smf.localdomain in md_hook_cb_tree@dbg_msg_dumps.c:117:        ApplicationId: 0
+ ((null):0)
+10/14 01:28:52.491: [diam] ERROR: pid:PSM/smf.localdomain in md_hook_cb_tree@dbg_msg_dumps.c:117:        Hop-by-Hop Identifier: 0x05E02C0C
+ ((null):0)
+10/14 01:28:52.491: [diam] ERROR: pid:PSM/smf.localdomain in md_hook_cb_tree@dbg_msg_dumps.c:117:        End-to-End Identifier: 0x12680A06
+ ((null):0)
+10/14 01:28:52.491: [diam] ERROR: pid:PSM/smf.localdomain in md_hook_cb_tree@dbg_msg_dumps.c:117:         {internal data}: src:smf.localdomain(15) rwb:(nil) rt:2 cb:(nil),(nil)((nil)) qry:0x7fddf4002e80 asso:0 sess:(nil)
+ ((null):0)
+10/14 01:28:52.491: [diam] ERROR: pid:PSM/smf.localdomain in md_hook_cb_tree@dbg_msg_dumps.c:117:         AVP: 'Result-Code'(268) l=12 f=-M val='DIAMETER_UNKNOWN_PEER' (3010 (0xbc2))
+ ((null):0)
+10/14 01:28:52.491: [diam] ERROR: pid:PSM/smf.localdomain in md_hook_cb_tree@dbg_msg_dumps.c:117:         AVP: 'Error-Message'(281) l=29 f=-- val="DIAMETER_UNKNOWN_PEER"
+ ((null):0)
+10/14 01:28:52.491: [diam] ERROR: pid:PSM/smf.localdomain in md_hook_cb_tree@dbg_msg_dumps.c:117:         AVP: 'Origin-Host'(264) l=24 f=-M val="pcrf.localdomain"
+ ((null):0)
+10/14 01:28:52.491: [diam] ERROR: pid:PSM/smf.localdomain in md_hook_cb_tree@dbg_msg_dumps.c:117:         AVP: 'Origin-Realm'(296) l=19 f=-M val="localdomain"
+ ((null):0)
+10/14 01:28:52.491: [diam] ERROR: pid:PSM/smf.localdomain in md_hook_cb_tree@dbg_msg_dumps.c:117:         AVP: 'Origin-State-Id'(278) l=12 f=-M val=1697272102 (0x652a5126)
+ ((null):0)
+10/14 01:29:21.917: [diam] ERROR: pid:PSM/smf.localdomain in fd_p_ce_msgrcv@p_ce.c:747: ERROR: in '(save_remote_CE_info(*msg, peer, &pei, &rc))' :	Invalid argument
+ ((null):0)
+10/14 01:29:21.918: [diam] ERROR: pid:PSM/smf.localdomain in md_hook_cb_tree@dbg_msg_dumps.c:116: DROPPED 'Internal error ('smf.localdomain'): unhandled message.'
+ ((null):0)
+10/14 01:29:21.918: [diam] ERROR: pid:PSM/smf.localdomain in md_hook_cb_tree@dbg_msg_dumps.c:117:      'Capabilities-Exchange-Answer'
+ ((null):0)
+10/14 01:29:21.918: [diam] ERROR: pid:PSM/smf.localdomain in md_hook_cb_tree@dbg_msg_dumps.c:117:        Version: 0x01
+ ((null):0)
+10/14 01:29:21.918: [diam] ERROR: pid:PSM/smf.localdomain in md_hook_cb_tree@dbg_msg_dumps.c:117:        Length: 120
+ ((null):0)
+10/14 01:29:21.918: [diam] ERROR: pid:PSM/smf.localdomain in md_hook_cb_tree@dbg_msg_dumps.c:117:        Flags: 0x20 (--E-)
+ ((null):0)
+10/14 01:29:21.918: [diam] ERROR: pid:PSM/smf.localdomain in md_hook_cb_tree@dbg_msg_dumps.c:117:        Command Code: 257
+ ((null):0)
+10/14 01:29:21.918: [diam] ERROR: pid:PSM/smf.localdomain in md_hook_cb_tree@dbg_msg_dumps.c:117:        ApplicationId: 0
+ ((null):0)
+10/14 01:29:21.918: [diam] ERROR: pid:PSM/smf.localdomain in md_hook_cb_tree@dbg_msg_dumps.c:117:        Hop-by-Hop Identifier: 0x05E02C0D
+ ((null):0)
+10/14 01:29:21.918: [diam] ERROR: pid:PSM/smf.localdomain in md_hook_cb_tree@dbg_msg_dumps.c:117:        End-to-End Identifier: 0x12680A07
+ ((null):0)
+10/14 01:29:21.918: [diam] ERROR: pid:PSM/smf.localdomain in md_hook_cb_tree@dbg_msg_dumps.c:117:         {internal data}: src:smf.localdomain(15) rwb:(nil) rt:2 cb:(nil),(nil)((nil)) qry:0x7fddf4000f80 asso:0 sess:(nil)
+ ((null):0)
+10/14 01:29:21.918: [diam] ERROR: pid:PSM/smf.localdomain in md_hook_cb_tree@dbg_msg_dumps.c:117:         AVP: 'Result-Code'(268) l=12 f=-M val='DIAMETER_UNKNOWN_PEER' (3010 (0xbc2))
+ ((null):0)
+10/14 01:29:21.918: [diam] ERROR: pid:PSM/smf.localdomain in md_hook_cb_tree@dbg_msg_dumps.c:117:         AVP: 'Error-Message'(281) l=29 f=-- val="DIAMETER_UNKNOWN_PEER"
+ ((null):0)
+10/14 01:29:21.918: [diam] ERROR: pid:PSM/smf.localdomain in md_hook_cb_tree@dbg_msg_dumps.c:117:         AVP: 'Origin-Host'(264) l=24 f=-M val="pcrf.localdomain"
+ ((null):0)
+10/14 01:29:21.918: [diam] ERROR: pid:PSM/smf.localdomain in md_hook_cb_tree@dbg_msg_dumps.c:117:         AVP: 'Origin-Realm'(296) l=19 f=-M val="localdomain"
+ ((null):0)
+10/14 01:29:21.918: [diam] ERROR: pid:PSM/smf.localdomain in md_hook_cb_tree@dbg_msg_dumps.c:117:         AVP: 'Origin-State-Id'(278) l=12 f=-M val=1697272102 (0x652a5126)
+ ((null):0)
+10/14 01:29:52.569: [diam] ERROR: pid:PSM/smf.localdomain in fd_p_ce_msgrcv@p_ce.c:747: ERROR: in '(save_remote_CE_info(*msg, peer, &pei, &rc))' :	Invalid argument
+ ((null):0)
+10/14 01:29:52.569: [diam] ERROR: pid:PSM/smf.localdomain in md_hook_cb_tree@dbg_msg_dumps.c:116: DROPPED 'Internal error ('smf.localdomain'): unhandled message.'
+ ((null):0)
+10/14 01:29:52.569: [diam] ERROR: pid:PSM/smf.localdomain in md_hook_cb_tree@dbg_msg_dumps.c:117:      'Capabilities-Exchange-Answer'
+ ((null):0)
+10/14 01:29:52.569: [diam] ERROR: pid:PSM/smf.localdomain in md_hook_cb_tree@dbg_msg_dumps.c:117:        Version: 0x01
+ ((null):0)
+10/14 01:29:52.569: [diam] ERROR: pid:PSM/smf.localdomain in md_hook_cb_tree@dbg_msg_dumps.c:117:        Length: 120
+ ((null):0)
+10/14 01:29:52.569: [diam] ERROR: pid:PSM/smf.localdomain in md_hook_cb_tree@dbg_msg_dumps.c:117:        Flags: 0x20 (--E-)
+ ((null):0)
+10/14 01:29:52.569: [diam] ERROR: pid:PSM/smf.localdomain in md_hook_cb_tree@dbg_msg_dumps.c:117:        Command Code: 257
+ ((null):0)
+10/14 01:29:52.569: [diam] ERROR: pid:PSM/smf.localdomain in md_hook_cb_tree@dbg_msg_dumps.c:117:        ApplicationId: 0
+ ((null):0)
+10/14 01:29:52.569: [diam] ERROR: pid:PSM/smf.localdomain in md_hook_cb_tree@dbg_msg_dumps.c:117:        Hop-by-Hop Identifier: 0x05E02C0E
+ ((null):0)
+10/14 01:29:52.569: [diam] ERROR: pid:PSM/smf.localdomain in md_hook_cb_tree@dbg_msg_dumps.c:117:        End-to-End Identifier: 0x12680A08
+ ((null):0)
+10/14 01:29:52.569: [diam] ERROR: pid:PSM/smf.localdomain in md_hook_cb_tree@dbg_msg_dumps.c:117:         {internal data}: src:smf.localdomain(15) rwb:(nil) rt:2 cb:(nil),(nil)((nil)) qry:0x7fddf4002e80 asso:0 sess:(nil)
+ ((null):0)
+10/14 01:29:52.569: [diam] ERROR: pid:PSM/smf.localdomain in md_hook_cb_tree@dbg_msg_dumps.c:117:         AVP: 'Result-Code'(268) l=12 f=-M val='DIAMETER_UNKNOWN_PEER' (3010 (0xbc2))
+ ((null):0)
+10/14 01:29:52.569: [diam] ERROR: pid:PSM/smf.localdomain in md_hook_cb_tree@dbg_msg_dumps.c:117:         AVP: 'Error-Message'(281) l=29 f=-- val="DIAMETER_UNKNOWN_PEER"
+ ((null):0)
+10/14 01:29:52.569: [diam] ERROR: pid:PSM/smf.localdomain in md_hook_cb_tree@dbg_msg_dumps.c:117:         AVP: 'Origin-Host'(264) l=24 f=-M val="pcrf.localdomain"
+ ((null):0)
+10/14 01:29:52.569: [diam] ERROR: pid:PSM/smf.localdomain in md_hook_cb_tree@dbg_msg_dumps.c:117:         AVP: 'Origin-Realm'(296) l=19 f=-M val="localdomain"
+ ((null):0)
+10/14 01:29:52.569: [diam] ERROR: pid:PSM/smf.localdomain in md_hook_cb_tree@dbg_msg_dumps.c:117:         AVP: 'Origin-State-Id'(278) l=12 f=-M val=1697272102 (0x652a5126)
+ ((null):0)
+10/14 01:30:21.760: [diam] ERROR: pid:PSM/smf.localdomain in fd_p_ce_msgrcv@p_ce.c:747: ERROR: in '(save_remote_CE_info(*msg, peer, &pei, &rc))' :	Invalid argument
+ ((null):0)
+10/14 01:30:21.760: [diam] ERROR: pid:PSM/smf.localdomain in md_hook_cb_tree@dbg_msg_dumps.c:116: DROPPED 'Internal error ('smf.localdomain'): unhandled message.'
+ ((null):0)
+10/14 01:30:21.760: [diam] ERROR: pid:PSM/smf.localdomain in md_hook_cb_tree@dbg_msg_dumps.c:117:      'Capabilities-Exchange-Answer'
+ ((null):0)
+10/14 01:30:21.760: [diam] ERROR: pid:PSM/smf.localdomain in md_hook_cb_tree@dbg_msg_dumps.c:117:        Version: 0x01
+ ((null):0)
+10/14 01:30:21.760: [diam] ERROR: pid:PSM/smf.localdomain in md_hook_cb_tree@dbg_msg_dumps.c:117:        Length: 120
+ ((null):0)
+10/14 01:30:21.761: [diam] ERROR: pid:PSM/smf.localdomain in md_hook_cb_tree@dbg_msg_dumps.c:117:        Flags: 0x20 (--E-)
+ ((null):0)
+10/14 01:30:21.761: [diam] ERROR: pid:PSM/smf.localdomain in md_hook_cb_tree@dbg_msg_dumps.c:117:        Command Code: 257
+ ((null):0)
+10/14 01:30:21.761: [diam] ERROR: pid:PSM/smf.localdomain in md_hook_cb_tree@dbg_msg_dumps.c:117:        ApplicationId: 0
+ ((null):0)
+10/14 01:30:21.761: [diam] ERROR: pid:PSM/smf.localdomain in md_hook_cb_tree@dbg_msg_dumps.c:117:        Hop-by-Hop Identifier: 0x05E02C0F
+ ((null):0)
+10/14 01:30:21.761: [diam] ERROR: pid:PSM/smf.localdomain in md_hook_cb_tree@dbg_msg_dumps.c:117:        End-to-End Identifier: 0x12680A09
+ ((null):0)
+10/14 01:30:21.761: [diam] ERROR: pid:PSM/smf.localdomain in md_hook_cb_tree@dbg_msg_dumps.c:117:         {internal data}: src:smf.localdomain(15) rwb:(nil) rt:2 cb:(nil),(nil)((nil)) qry:0x7fddf4000f80 asso:0 sess:(nil)
+ ((null):0)
+10/14 01:30:21.761: [diam] ERROR: pid:PSM/smf.localdomain in md_hook_cb_tree@dbg_msg_dumps.c:117:         AVP: 'Result-Code'(268) l=12 f=-M val='DIAMETER_UNKNOWN_PEER' (3010 (0xbc2))
+ ((null):0)
+10/14 01:30:21.761: [diam] ERROR: pid:PSM/smf.localdomain in md_hook_cb_tree@dbg_msg_dumps.c:117:         AVP: 'Error-Message'(281) l=29 f=-- val="DIAMETER_UNKNOWN_PEER"
+ ((null):0)
+10/14 01:30:21.761: [diam] ERROR: pid:PSM/smf.localdomain in md_hook_cb_tree@dbg_msg_dumps.c:117:         AVP: 'Origin-Host'(264) l=24 f=-M val="pcrf.localdomain"
+ ((null):0)
+10/14 01:30:21.761: [diam] ERROR: pid:PSM/smf.localdomain in md_hook_cb_tree@dbg_msg_dumps.c:117:         AVP: 'Origin-Realm'(296) l=19 f=-M val="localdomain"
+ ((null):0)
+10/14 01:30:21.761: [diam] ERROR: pid:PSM/smf.localdomain in md_hook_cb_tree@dbg_msg_dumps.c:117:         AVP: 'Origin-State-Id'(278) l=12 f=-M val=1697272102 (0x652a5126)
+ ((null):0)
+10/14 01:30:52.116: [diam] ERROR: pid:PSM/smf.localdomain in fd_p_ce_msgrcv@p_ce.c:747: ERROR: in '(save_remote_CE_info(*msg, peer, &pei, &rc))' :	Invalid argument
+ ((null):0)
+10/14 01:30:52.117: [diam] ERROR: pid:PSM/smf.localdomain in md_hook_cb_tree@dbg_msg_dumps.c:116: DROPPED 'Internal error ('smf.localdomain'): unhandled message.'
+ ((null):0)
+10/14 01:30:52.117: [diam] ERROR: pid:PSM/smf.localdomain in md_hook_cb_tree@dbg_msg_dumps.c:117:      'Capabilities-Exchange-Answer'
+ ((null):0)
+10/14 01:30:52.118: [diam] ERROR: pid:PSM/smf.localdomain in md_hook_cb_tree@dbg_msg_dumps.c:117:        Version: 0x01
+ ((null):0)
+10/14 01:30:52.118: [diam] ERROR: pid:PSM/smf.localdomain in md_hook_cb_tree@dbg_msg_dumps.c:117:        Length: 120
+ ((null):0)
+10/14 01:30:52.118: [diam] ERROR: pid:PSM/smf.localdomain in md_hook_cb_tree@dbg_msg_dumps.c:117:        Flags: 0x20 (--E-)
+ ((null):0)
+10/14 01:30:52.119: [diam] ERROR: pid:PSM/smf.localdomain in md_hook_cb_tree@dbg_msg_dumps.c:117:        Command Code: 257
+ ((null):0)
+10/14 01:30:52.119: [diam] ERROR: pid:PSM/smf.localdomain in md_hook_cb_tree@dbg_msg_dumps.c:117:        ApplicationId: 0
+ ((null):0)
+10/14 01:30:52.119: [diam] ERROR: pid:PSM/smf.localdomain in md_hook_cb_tree@dbg_msg_dumps.c:117:        Hop-by-Hop Identifier: 0x05E02C10
+ ((null):0)
+10/14 01:30:52.119: [diam] ERROR: pid:PSM/smf.localdomain in md_hook_cb_tree@dbg_msg_dumps.c:117:        End-to-End Identifier: 0x12680A0A
+ ((null):0)
+10/14 01:30:52.120: [diam] ERROR: pid:PSM/smf.localdomain in md_hook_cb_tree@dbg_msg_dumps.c:117:         {internal data}: src:smf.localdomain(15) rwb:(nil) rt:2 cb:(nil),(nil)((nil)) qry:0x7fddf4002e80 asso:0 sess:(nil)
+ ((null):0)
+10/14 01:30:52.120: [diam] ERROR: pid:PSM/smf.localdomain in md_hook_cb_tree@dbg_msg_dumps.c:117:         AVP: 'Result-Code'(268) l=12 f=-M val='DIAMETER_UNKNOWN_PEER' (3010 (0xbc2))
+ ((null):0)
+10/14 01:30:52.121: [diam] ERROR: pid:PSM/smf.localdomain in md_hook_cb_tree@dbg_msg_dumps.c:117:         AVP: 'Error-Message'(281) l=29 f=-- val="DIAMETER_UNKNOWN_PEER"
+ ((null):0)
+10/14 01:30:52.121: [diam] ERROR: pid:PSM/smf.localdomain in md_hook_cb_tree@dbg_msg_dumps.c:117:         AVP: 'Origin-Host'(264) l=24 f=-M val="pcrf.localdomain"
+ ((null):0)
+10/14 01:30:52.121: [diam] ERROR: pid:PSM/smf.localdomain in md_hook_cb_tree@dbg_msg_dumps.c:117:         AVP: 'Origin-Realm'(296) l=19 f=-M val="localdomain"
+ ((null):0)
+10/14 01:30:52.122: [diam] ERROR: pid:PSM/smf.localdomain in md_hook_cb_tree@dbg_msg_dumps.c:117:         AVP: 'Origin-State-Id'(278) l=12 f=-M val=1697272102 (0x652a5126)
+ ((null):0)
+10/14 01:31:22.226: [diam] ERROR: pid:PSM/smf.localdomain in fd_p_ce_msgrcv@p_ce.c:747: ERROR: in '(save_remote_CE_info(*msg, peer, &pei, &rc))' :	Invalid argument
+ ((null):0)
+10/14 01:31:22.226: [diam] ERROR: pid:PSM/smf.localdomain in md_hook_cb_tree@dbg_msg_dumps.c:116: DROPPED 'Internal error ('smf.localdomain'): unhandled message.'
+ ((null):0)
+10/14 01:31:22.226: [diam] ERROR: pid:PSM/smf.localdomain in md_hook_cb_tree@dbg_msg_dumps.c:117:      'Capabilities-Exchange-Answer'
+ ((null):0)
+10/14 01:31:22.226: [diam] ERROR: pid:PSM/smf.localdomain in md_hook_cb_tree@dbg_msg_dumps.c:117:        Version: 0x01
+ ((null):0)
+10/14 01:31:22.226: [diam] ERROR: pid:PSM/smf.localdomain in md_hook_cb_tree@dbg_msg_dumps.c:117:        Length: 120
+ ((null):0)
+10/14 01:31:22.226: [diam] ERROR: pid:PSM/smf.localdomain in md_hook_cb_tree@dbg_msg_dumps.c:117:        Flags: 0x20 (--E-)
+ ((null):0)
+10/14 01:31:22.226: [diam] ERROR: pid:PSM/smf.localdomain in md_hook_cb_tree@dbg_msg_dumps.c:117:        Command Code: 257
+ ((null):0)
+10/14 01:31:22.226: [diam] ERROR: pid:PSM/smf.localdomain in md_hook_cb_tree@dbg_msg_dumps.c:117:        ApplicationId: 0
+ ((null):0)
+10/14 01:31:22.226: [diam] ERROR: pid:PSM/smf.localdomain in md_hook_cb_tree@dbg_msg_dumps.c:117:        Hop-by-Hop Identifier: 0x05E02C11
+ ((null):0)
+10/14 01:31:22.226: [diam] ERROR: pid:PSM/smf.localdomain in md_hook_cb_tree@dbg_msg_dumps.c:117:        End-to-End Identifier: 0x12680A0B
+ ((null):0)
+10/14 01:31:22.226: [diam] ERROR: pid:PSM/smf.localdomain in md_hook_cb_tree@dbg_msg_dumps.c:117:         {internal data}: src:smf.localdomain(15) rwb:(nil) rt:2 cb:(nil),(nil)((nil)) qry:0x7fddf4000f80 asso:0 sess:(nil)
+ ((null):0)
+10/14 01:31:22.226: [diam] ERROR: pid:PSM/smf.localdomain in md_hook_cb_tree@dbg_msg_dumps.c:117:         AVP: 'Result-Code'(268) l=12 f=-M val='DIAMETER_UNKNOWN_PEER' (3010 (0xbc2))
+ ((null):0)
+10/14 01:31:22.226: [diam] ERROR: pid:PSM/smf.localdomain in md_hook_cb_tree@dbg_msg_dumps.c:117:         AVP: 'Error-Message'(281) l=29 f=-- val="DIAMETER_UNKNOWN_PEER"
+ ((null):0)
+10/14 01:31:22.226: [diam] ERROR: pid:PSM/smf.localdomain in md_hook_cb_tree@dbg_msg_dumps.c:117:         AVP: 'Origin-Host'(264) l=24 f=-M val="pcrf.localdomain"
+ ((null):0)
+10/14 01:31:22.226: [diam] ERROR: pid:PSM/smf.localdomain in md_hook_cb_tree@dbg_msg_dumps.c:117:         AVP: 'Origin-Realm'(296) l=19 f=-M val="localdomain"
+ ((null):0)
+10/14 01:31:22.226: [diam] ERROR: pid:PSM/smf.localdomain in md_hook_cb_tree@dbg_msg_dumps.c:117:         AVP: 'Origin-State-Id'(278) l=12 f=-M val=1697272102 (0x652a5126)
+ ((null):0)
+10/14 01:31:54.196: [diam] ERROR: pid:PSM/smf.localdomain in fd_p_ce_msgrcv@p_ce.c:747: ERROR: in '(save_remote_CE_info(*msg, peer, &pei, &rc))' :	Invalid argument
+ ((null):0)
+10/14 01:31:54.196: [diam] ERROR: pid:PSM/smf.localdomain in md_hook_cb_tree@dbg_msg_dumps.c:116: DROPPED 'Internal error ('smf.localdomain'): unhandled message.'
+ ((null):0)
+10/14 01:31:54.196: [diam] ERROR: pid:PSM/smf.localdomain in md_hook_cb_tree@dbg_msg_dumps.c:117:      'Capabilities-Exchange-Answer'
+ ((null):0)
+10/14 01:31:54.196: [diam] ERROR: pid:PSM/smf.localdomain in md_hook_cb_tree@dbg_msg_dumps.c:117:        Version: 0x01
+ ((null):0)
+10/14 01:31:54.196: [diam] ERROR: pid:PSM/smf.localdomain in md_hook_cb_tree@dbg_msg_dumps.c:117:        Length: 120
+ ((null):0)
+10/14 01:31:54.196: [diam] ERROR: pid:PSM/smf.localdomain in md_hook_cb_tree@dbg_msg_dumps.c:117:        Flags: 0x20 (--E-)
+ ((null):0)
+10/14 01:31:54.196: [diam] ERROR: pid:PSM/smf.localdomain in md_hook_cb_tree@dbg_msg_dumps.c:117:        Command Code: 257
+ ((null):0)
+10/14 01:31:54.196: [diam] ERROR: pid:PSM/smf.localdomain in md_hook_cb_tree@dbg_msg_dumps.c:117:        ApplicationId: 0
+ ((null):0)
+10/14 01:31:54.196: [diam] ERROR: pid:PSM/smf.localdomain in md_hook_cb_tree@dbg_msg_dumps.c:117:        Hop-by-Hop Identifier: 0x05E02C12
+ ((null):0)
+10/14 01:31:54.196: [diam] ERROR: pid:PSM/smf.localdomain in md_hook_cb_tree@dbg_msg_dumps.c:117:        End-to-End Identifier: 0x12680A0C
+ ((null):0)
+10/14 01:31:54.196: [diam] ERROR: pid:PSM/smf.localdomain in md_hook_cb_tree@dbg_msg_dumps.c:117:         {internal data}: src:smf.localdomain(15) rwb:(nil) rt:2 cb:(nil),(nil)((nil)) qry:0x7fddf4002e80 asso:0 sess:(nil)
+ ((null):0)
+10/14 01:31:54.196: [diam] ERROR: pid:PSM/smf.localdomain in md_hook_cb_tree@dbg_msg_dumps.c:117:         AVP: 'Result-Code'(268) l=12 f=-M val='DIAMETER_UNKNOWN_PEER' (3010 (0xbc2))
+ ((null):0)
+10/14 01:31:54.196: [diam] ERROR: pid:PSM/smf.localdomain in md_hook_cb_tree@dbg_msg_dumps.c:117:         AVP: 'Error-Message'(281) l=29 f=-- val="DIAMETER_UNKNOWN_PEER"
+ ((null):0)
+10/14 01:31:54.196: [diam] ERROR: pid:PSM/smf.localdomain in md_hook_cb_tree@dbg_msg_dumps.c:117:         AVP: 'Origin-Host'(264) l=24 f=-M val="pcrf.localdomain"
+ ((null):0)
+10/14 01:31:54.196: [diam] ERROR: pid:PSM/smf.localdomain in md_hook_cb_tree@dbg_msg_dumps.c:117:         AVP: 'Origin-Realm'(296) l=19 f=-M val="localdomain"
+ ((null):0)
+10/14 01:31:54.196: [diam] ERROR: pid:PSM/smf.localdomain in md_hook_cb_tree@dbg_msg_dumps.c:117:         AVP: 'Origin-State-Id'(278) l=12 f=-M val=1697272102 (0x652a5126)
+ ((null):0)
+10/14 01:32:22.738: [diam] ERROR: pid:PSM/smf.localdomain in fd_p_ce_msgrcv@p_ce.c:747: ERROR: in '(save_remote_CE_info(*msg, peer, &pei, &rc))' :	Invalid argument
+ ((null):0)
+10/14 01:32:22.738: [diam] ERROR: pid:PSM/smf.localdomain in md_hook_cb_tree@dbg_msg_dumps.c:116: DROPPED 'Internal error ('smf.localdomain'): unhandled message.'
+ ((null):0)
+10/14 01:32:22.738: [diam] ERROR: pid:PSM/smf.localdomain in md_hook_cb_tree@dbg_msg_dumps.c:117:      'Capabilities-Exchange-Answer'
+ ((null):0)
+10/14 01:32:22.738: [diam] ERROR: pid:PSM/smf.localdomain in md_hook_cb_tree@dbg_msg_dumps.c:117:        Version: 0x01
+ ((null):0)
+10/14 01:32:22.738: [diam] ERROR: pid:PSM/smf.localdomain in md_hook_cb_tree@dbg_msg_dumps.c:117:        Length: 120
+ ((null):0)
+10/14 01:32:22.738: [diam] ERROR: pid:PSM/smf.localdomain in md_hook_cb_tree@dbg_msg_dumps.c:117:        Flags: 0x20 (--E-)
+ ((null):0)
+10/14 01:32:22.738: [diam] ERROR: pid:PSM/smf.localdomain in md_hook_cb_tree@dbg_msg_dumps.c:117:        Command Code: 257
+ ((null):0)
+10/14 01:32:22.738: [diam] ERROR: pid:PSM/smf.localdomain in md_hook_cb_tree@dbg_msg_dumps.c:117:        ApplicationId: 0
+ ((null):0)
+10/14 01:32:22.738: [diam] ERROR: pid:PSM/smf.localdomain in md_hook_cb_tree@dbg_msg_dumps.c:117:        Hop-by-Hop Identifier: 0x05E02C13
+ ((null):0)
+10/14 01:32:22.738: [diam] ERROR: pid:PSM/smf.localdomain in md_hook_cb_tree@dbg_msg_dumps.c:117:        End-to-End Identifier: 0x12680A0D
+ ((null):0)
+10/14 01:32:22.738: [diam] ERROR: pid:PSM/smf.localdomain in md_hook_cb_tree@dbg_msg_dumps.c:117:         {internal data}: src:smf.localdomain(15) rwb:(nil) rt:2 cb:(nil),(nil)((nil)) qry:0x7fddf4000f80 asso:0 sess:(nil)
+ ((null):0)
+10/14 01:32:22.738: [diam] ERROR: pid:PSM/smf.localdomain in md_hook_cb_tree@dbg_msg_dumps.c:117:         AVP: 'Result-Code'(268) l=12 f=-M val='DIAMETER_UNKNOWN_PEER' (3010 (0xbc2))
+ ((null):0)
+10/14 01:32:22.738: [diam] ERROR: pid:PSM/smf.localdomain in md_hook_cb_tree@dbg_msg_dumps.c:117:         AVP: 'Error-Message'(281) l=29 f=-- val="DIAMETER_UNKNOWN_PEER"
+ ((null):0)
+10/14 01:32:22.738: [diam] ERROR: pid:PSM/smf.localdomain in md_hook_cb_tree@dbg_msg_dumps.c:117:         AVP: 'Origin-Host'(264) l=24 f=-M val="pcrf.localdomain"
+ ((null):0)
+10/14 01:32:22.738: [diam] ERROR: pid:PSM/smf.localdomain in md_hook_cb_tree@dbg_msg_dumps.c:117:         AVP: 'Origin-Realm'(296) l=19 f=-M val="localdomain"
+ ((null):0)
+10/14 01:32:22.738: [diam] ERROR: pid:PSM/smf.localdomain in md_hook_cb_tree@dbg_msg_dumps.c:117:         AVP: 'Origin-State-Id'(278) l=12 f=-M val=1697272102 (0x652a5126)
+ ((null):0)
+10/14 01:32:51.046: [diam] ERROR: pid:PSM/smf.localdomain in fd_p_ce_msgrcv@p_ce.c:747: ERROR: in '(save_remote_CE_info(*msg, peer, &pei, &rc))' :	Invalid argument
+ ((null):0)
+10/14 01:32:51.046: [diam] ERROR: pid:PSM/smf.localdomain in md_hook_cb_tree@dbg_msg_dumps.c:116: DROPPED 'Internal error ('smf.localdomain'): unhandled message.'
+ ((null):0)
+10/14 01:32:51.046: [diam] ERROR: pid:PSM/smf.localdomain in md_hook_cb_tree@dbg_msg_dumps.c:117:      'Capabilities-Exchange-Answer'
+ ((null):0)
+10/14 01:32:51.046: [diam] ERROR: pid:PSM/smf.localdomain in md_hook_cb_tree@dbg_msg_dumps.c:117:        Version: 0x01
+ ((null):0)
+10/14 01:32:51.046: [diam] ERROR: pid:PSM/smf.localdomain in md_hook_cb_tree@dbg_msg_dumps.c:117:        Length: 120
+ ((null):0)
+10/14 01:32:51.046: [diam] ERROR: pid:PSM/smf.localdomain in md_hook_cb_tree@dbg_msg_dumps.c:117:        Flags: 0x20 (--E-)
+ ((null):0)
+10/14 01:32:51.046: [diam] ERROR: pid:PSM/smf.localdomain in md_hook_cb_tree@dbg_msg_dumps.c:117:        Command Code: 257
+ ((null):0)
+10/14 01:32:51.046: [diam] ERROR: pid:PSM/smf.localdomain in md_hook_cb_tree@dbg_msg_dumps.c:117:        ApplicationId: 0
+ ((null):0)
+10/14 01:32:51.047: [diam] ERROR: pid:PSM/smf.localdomain in md_hook_cb_tree@dbg_msg_dumps.c:117:        Hop-by-Hop Identifier: 0x05E02C14
+ ((null):0)
+10/14 01:32:51.047: [diam] ERROR: pid:PSM/smf.localdomain in md_hook_cb_tree@dbg_msg_dumps.c:117:        End-to-End Identifier: 0x12680A0E
+ ((null):0)
+10/14 01:32:51.047: [diam] ERROR: pid:PSM/smf.localdomain in md_hook_cb_tree@dbg_msg_dumps.c:117:         {internal data}: src:smf.localdomain(15) rwb:(nil) rt:2 cb:(nil),(nil)((nil)) qry:0x7fddf4002e80 asso:0 sess:(nil)
+ ((null):0)
+10/14 01:32:51.047: [diam] ERROR: pid:PSM/smf.localdomain in md_hook_cb_tree@dbg_msg_dumps.c:117:         AVP: 'Result-Code'(268) l=12 f=-M val='DIAMETER_UNKNOWN_PEER' (3010 (0xbc2))
+ ((null):0)
+10/14 01:32:51.047: [diam] ERROR: pid:PSM/smf.localdomain in md_hook_cb_tree@dbg_msg_dumps.c:117:         AVP: 'Error-Message'(281) l=29 f=-- val="DIAMETER_UNKNOWN_PEER"
+ ((null):0)
+10/14 01:32:51.047: [diam] ERROR: pid:PSM/smf.localdomain in md_hook_cb_tree@dbg_msg_dumps.c:117:         AVP: 'Origin-Host'(264) l=24 f=-M val="pcrf.localdomain"
+ ((null):0)
+10/14 01:32:51.047: [diam] ERROR: pid:PSM/smf.localdomain in md_hook_cb_tree@dbg_msg_dumps.c:117:         AVP: 'Origin-Realm'(296) l=19 f=-M val="localdomain"
+ ((null):0)
+10/14 01:32:51.047: [diam] ERROR: pid:PSM/smf.localdomain in md_hook_cb_tree@dbg_msg_dumps.c:117:         AVP: 'Origin-State-Id'(278) l=12 f=-M val=1697272102 (0x652a5126)
+ ((null):0)
+10/14 01:33:22.571: [diam] ERROR: pid:PSM/smf.localdomain in fd_p_ce_msgrcv@p_ce.c:747: ERROR: in '(save_remote_CE_info(*msg, peer, &pei, &rc))' :	Invalid argument
+ ((null):0)
+10/14 01:33:22.571: [diam] ERROR: pid:PSM/smf.localdomain in md_hook_cb_tree@dbg_msg_dumps.c:116: DROPPED 'Internal error ('smf.localdomain'): unhandled message.'
+ ((null):0)
+10/14 01:33:22.572: [diam] ERROR: pid:PSM/smf.localdomain in md_hook_cb_tree@dbg_msg_dumps.c:117:      'Capabilities-Exchange-Answer'
+ ((null):0)
+10/14 01:33:22.572: [diam] ERROR: pid:PSM/smf.localdomain in md_hook_cb_tree@dbg_msg_dumps.c:117:        Version: 0x01
+ ((null):0)
+10/14 01:33:22.572: [diam] ERROR: pid:PSM/smf.localdomain in md_hook_cb_tree@dbg_msg_dumps.c:117:        Length: 120
+ ((null):0)
+10/14 01:33:22.572: [diam] ERROR: pid:PSM/smf.localdomain in md_hook_cb_tree@dbg_msg_dumps.c:117:        Flags: 0x20 (--E-)
+ ((null):0)
+10/14 01:33:22.572: [diam] ERROR: pid:PSM/smf.localdomain in md_hook_cb_tree@dbg_msg_dumps.c:117:        Command Code: 257
+ ((null):0)
+10/14 01:33:22.572: [diam] ERROR: pid:PSM/smf.localdomain in md_hook_cb_tree@dbg_msg_dumps.c:117:        ApplicationId: 0
+ ((null):0)
+10/14 01:33:22.572: [diam] ERROR: pid:PSM/smf.localdomain in md_hook_cb_tree@dbg_msg_dumps.c:117:        Hop-by-Hop Identifier: 0x05E02C15
+ ((null):0)
+10/14 01:33:22.572: [diam] ERROR: pid:PSM/smf.localdomain in md_hook_cb_tree@dbg_msg_dumps.c:117:        End-to-End Identifier: 0x12680A0F
+ ((null):0)
+10/14 01:33:22.572: [diam] ERROR: pid:PSM/smf.localdomain in md_hook_cb_tree@dbg_msg_dumps.c:117:         {internal data}: src:smf.localdomain(15) rwb:(nil) rt:2 cb:(nil),(nil)((nil)) qry:0x7fddf4000f80 asso:0 sess:(nil)
+ ((null):0)
+10/14 01:33:22.573: [diam] ERROR: pid:PSM/smf.localdomain in md_hook_cb_tree@dbg_msg_dumps.c:117:         AVP: 'Result-Code'(268) l=12 f=-M val='DIAMETER_UNKNOWN_PEER' (3010 (0xbc2))
+ ((null):0)
+10/14 01:33:22.573: [diam] ERROR: pid:PSM/smf.localdomain in md_hook_cb_tree@dbg_msg_dumps.c:117:         AVP: 'Error-Message'(281) l=29 f=-- val="DIAMETER_UNKNOWN_PEER"
+ ((null):0)
+10/14 01:33:22.573: [diam] ERROR: pid:PSM/smf.localdomain in md_hook_cb_tree@dbg_msg_dumps.c:117:         AVP: 'Origin-Host'(264) l=24 f=-M val="pcrf.localdomain"
+ ((null):0)
+10/14 01:33:22.573: [diam] ERROR: pid:PSM/smf.localdomain in md_hook_cb_tree@dbg_msg_dumps.c:117:         AVP: 'Origin-Realm'(296) l=19 f=-M val="localdomain"
+ ((null):0)
+10/14 01:33:22.573: [diam] ERROR: pid:PSM/smf.localdomain in md_hook_cb_tree@dbg_msg_dumps.c:117:         AVP: 'Origin-State-Id'(278) l=12 f=-M val=1697272102 (0x652a5126)
+ ((null):0)
+10/14 01:33:54.080: [app] INFO: SIGINT received (../src/main.c:53)
+10/14 01:33:54.080: [app] INFO: Open5GS daemon terminating... (../src/main.c:226)
+10/14 01:33:54.191: [app] INFO: PCRF terminate...done (../src/pcrf/app-init.c:39)
+Open5GS daemon v2.6.6-9-ge108d62
+
+10/14 01:34:25.306: [app] INFO: Configuration: '/home/mike/Project/open5gs/ogs_install/etc/open5gs/pcrf.yaml' (../lib/app/ogs-init.c:126)
+10/14 01:34:25.306: [app] INFO: File Logging: '/home/mike/Project/open5gs/ogs_install/var/log/open5gs/pcrf.log' (../lib/app/ogs-init.c:129)
+10/14 01:34:25.313: [dbi] INFO: MongoDB URI: 'mongodb://localhost/open5gs' (../lib/dbi/ogs-mongoc.c:130)
+10/14 01:34:25.349: [app] INFO: PCRF initialize...done (../src/pcrf/app-init.c:31)
+10/14 01:35:42.312: [app] INFO: SIGINT received (../src/main.c:53)
+10/14 01:35:42.312: [app] INFO: Open5GS daemon terminating... (../src/main.c:226)
+10/14 01:35:42.419: [app] INFO: PCRF terminate...done (../src/pcrf/app-init.c:39)
+Open5GS daemon v2.6.6-9-ge108d62
+
+10/14 01:40:35.039: [app] INFO: Configuration: '/home/mike/Project/open5gs/ogs_install/etc/open5gs/pcrf.yaml' (../lib/app/ogs-init.c:126)
+10/14 01:40:35.039: [app] INFO: File Logging: '/home/mike/Project/open5gs/ogs_install/var/log/open5gs/pcrf.log' (../lib/app/ogs-init.c:129)
+10/14 01:40:35.041: [dbi] INFO: MongoDB URI: 'mongodb://localhost/open5gs' (../lib/dbi/ogs-mongoc.c:130)
+10/14 01:40:35.098: [diam] ERROR: pid:Main in fd_sctp_create_bind_server@sctp.c:883: ERROR: in '(sctp_bindx(*sock, sar, count, 0x01))' :	Address already in use
+ ((null):0)
+10/14 01:40:35.098: [diam] ERROR: pid:Main in fd_cnx_serv_sctp@cnxctx.c:181: ERROR: in '(fd_sctp_create_bind_server( &cnx->cc_socket, cnx->cc_family, ep_list, port ))' :	Address already in use
+ ((null):0)
+10/14 01:40:35.098: [diam] ERROR: pid:Main in fd_servers_start@server.c:363: ERROR: in '(s->conn = fd_cnx_serv_sctp(fd_g_config->cnf_port_tls, empty_conf_ep ? ((void *)0) : &fd_g_config->cnf_endpoints))' :	Transport endpoint is not connected
+ ((null):0)
+10/14 01:40:35.098: [diam] ERROR: pid:Main in fd_core_start_int@core.c:300: ERROR: in '((fd_servers_start()))' :	Transport endpoint is not connected
+ ((null):0)
+10/14 01:40:35.098: [diam] ERROR: pid:Main in ogs_diam_start@init.c:71: ERROR: in '(fd_core_start())' :	Transport endpoint is not connected
+ ((null):0)
+10/14 01:40:35.210: [pcrf] FATAL: pcrf_fd_init: Assertion `rv == 0' failed. (../src/pcrf/pcrf-fd-path.c:37)
+10/14 01:40:35.210: [core] FATAL: backtrace() returned 7 addresses (../lib/core/ogs-abort.c:37)
+./ogs_install/bin/open5gs-pcrfd(+0x7064) [0x55ff8ba9f064]
+./ogs_install/bin/open5gs-pcrfd(+0x57c5) [0x55ff8ba9d7c5]
+./ogs_install/bin/open5gs-pcrfd(+0x4d5e) [0x55ff8ba9cd5e]
+./ogs_install/bin/open5gs-pcrfd(+0x5646) [0x55ff8ba9d646]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf3) [0x7f58241fe083]
+./ogs_install/bin/open5gs-pcrfd(+0x4c8e) [0x55ff8ba9cc8e]
+Open5GS daemon v2.6.6-9-ge108d62
+
+10/14 01:52:38.121: [app] INFO: Configuration: '/home/mike/Project/open5gs/ogs_install/etc/open5gs/pcrf.yaml' (../lib/app/ogs-init.c:126)
+10/14 01:52:38.121: [app] INFO: File Logging: '/home/mike/Project/open5gs/ogs_install/var/log/open5gs/pcrf.log' (../lib/app/ogs-init.c:129)
+10/14 01:52:38.122: [dbi] INFO: MongoDB URI: 'mongodb://localhost/open5gs' (../lib/dbi/ogs-mongoc.c:130)
+10/14 01:52:38.216: [diam] ERROR: pid:Main in fd_sctp_create_bind_server@sctp.c:883: ERROR: in '(sctp_bindx(*sock, sar, count, 0x01))' :	Address already in use
+ ((null):0)
+10/14 01:52:38.216: [diam] ERROR: pid:Main in fd_cnx_serv_sctp@cnxctx.c:181: ERROR: in '(fd_sctp_create_bind_server( &cnx->cc_socket, cnx->cc_family, ep_list, port ))' :	Address already in use
+ ((null):0)
+10/14 01:52:38.216: [diam] ERROR: pid:Main in fd_servers_start@server.c:363: ERROR: in '(s->conn = fd_cnx_serv_sctp(fd_g_config->cnf_port_tls, empty_conf_ep ? ((void *)0) : &fd_g_config->cnf_endpoints))' :	Transport endpoint is not connected
+ ((null):0)
+10/14 01:52:38.216: [diam] ERROR: pid:Main in fd_core_start_int@core.c:300: ERROR: in '((fd_servers_start()))' :	Transport endpoint is not connected
+ ((null):0)
+10/14 01:52:38.216: [diam] ERROR: pid:Main in ogs_diam_start@init.c:71: ERROR: in '(fd_core_start())' :	Transport endpoint is not connected
+ ((null):0)
+10/14 01:52:38.325: [pcrf] FATAL: pcrf_fd_init: Assertion `rv == 0' failed. (../src/pcrf/pcrf-fd-path.c:37)
+10/14 01:52:38.325: [core] FATAL: backtrace() returned 7 addresses (../lib/core/ogs-abort.c:37)
+./ogs_install/bin/open5gs-pcrfd(+0x7064) [0x55a0eec16064]
+./ogs_install/bin/open5gs-pcrfd(+0x57c5) [0x55a0eec147c5]
+./ogs_install/bin/open5gs-pcrfd(+0x4d5e) [0x55a0eec13d5e]
+./ogs_install/bin/open5gs-pcrfd(+0x5646) [0x55a0eec14646]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf3) [0x7fa861ddc083]
+./ogs_install/bin/open5gs-pcrfd(+0x4c8e) [0x55a0eec13c8e]
+Open5GS daemon v2.6.6-9-ge108d62
+
+10/14 01:53:58.505: [app] INFO: Configuration: '/home/mike/Project/open5gs/ogs_install/etc/open5gs/pcrf.yaml' (../lib/app/ogs-init.c:126)
+10/14 01:53:58.505: [app] INFO: File Logging: '/home/mike/Project/open5gs/ogs_install/var/log/open5gs/pcrf.log' (../lib/app/ogs-init.c:129)
+10/14 01:53:58.507: [dbi] INFO: MongoDB URI: 'mongodb://localhost/open5gs' (../lib/dbi/ogs-mongoc.c:130)
+10/14 01:53:58.542: [diam] ERROR: pid:Main in fd_sctp_create_bind_server@sctp.c:883: ERROR: in '(sctp_bindx(*sock, sar, count, 0x01))' :	Address already in use
+ ((null):0)
+10/14 01:53:58.542: [diam] ERROR: pid:Main in fd_cnx_serv_sctp@cnxctx.c:181: ERROR: in '(fd_sctp_create_bind_server( &cnx->cc_socket, cnx->cc_family, ep_list, port ))' :	Address already in use
+ ((null):0)
+10/14 01:53:58.542: [diam] ERROR: pid:Main in fd_servers_start@server.c:355: ERROR: in '(s->conn = fd_cnx_serv_sctp(fd_g_config->cnf_port, empty_conf_ep ? ((void *)0) : &fd_g_config->cnf_endpoints))' :	Transport endpoint is not connected
+ ((null):0)
+10/14 01:53:58.542: [diam] ERROR: pid:Main in fd_core_start_int@core.c:300: ERROR: in '((fd_servers_start()))' :	Transport endpoint is not connected
+ ((null):0)
+10/14 01:53:58.542: [diam] ERROR: pid:Main in ogs_diam_start@init.c:71: ERROR: in '(fd_core_start())' :	Transport endpoint is not connected
+ ((null):0)
+10/14 01:53:58.652: [pcrf] FATAL: pcrf_fd_init: Assertion `rv == 0' failed. (../src/pcrf/pcrf-fd-path.c:37)
+10/14 01:53:58.652: [core] FATAL: backtrace() returned 7 addresses (../lib/core/ogs-abort.c:37)
+./ogs_install/bin/open5gs-pcrfd(+0x7064) [0x55cd132a1064]
+./ogs_install/bin/open5gs-pcrfd(+0x57c5) [0x55cd1329f7c5]
+./ogs_install/bin/open5gs-pcrfd(+0x4d5e) [0x55cd1329ed5e]
+./ogs_install/bin/open5gs-pcrfd(+0x5646) [0x55cd1329f646]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf3) [0x7fc803faf083]
+./ogs_install/bin/open5gs-pcrfd(+0x4c8e) [0x55cd1329ec8e]
+Open5GS daemon v2.6.6-9-ge108d62
+
+10/14 03:10:33.552: [app] INFO: Configuration: '/home/mike/Project/open5gs/ogs_install/etc/open5gs/pcrf.yaml' (../lib/app/ogs-init.c:126)
+10/14 03:10:33.552: [app] INFO: File Logging: '/home/mike/Project/open5gs/ogs_install/var/log/open5gs/pcrf.log' (../lib/app/ogs-init.c:129)
+10/14 03:10:33.554: [dbi] INFO: MongoDB URI: 'mongodb://localhost/open5gs' (../lib/dbi/ogs-mongoc.c:130)
+10/14 03:10:33.620: [diam] ERROR: pid:Main in fd_sctp_create_bind_server@sctp.c:883: ERROR: in '(sctp_bindx(*sock, sar, count, 0x01))' :	Address already in use
+ ((null):0)
+10/14 03:10:33.620: [diam] ERROR: pid:Main in fd_cnx_serv_sctp@cnxctx.c:181: ERROR: in '(fd_sctp_create_bind_server( &cnx->cc_socket, cnx->cc_family, ep_list, port ))' :	Address already in use
+ ((null):0)
+10/14 03:10:33.620: [diam] ERROR: pid:Main in fd_servers_start@server.c:355: ERROR: in '(s->conn = fd_cnx_serv_sctp(fd_g_config->cnf_port, empty_conf_ep ? ((void *)0) : &fd_g_config->cnf_endpoints))' :	Transport endpoint is not connected
+ ((null):0)
+10/14 03:10:33.620: [diam] ERROR: pid:Main in fd_core_start_int@core.c:300: ERROR: in '((fd_servers_start()))' :	Transport endpoint is not connected
+ ((null):0)
+10/14 03:10:33.620: [diam] ERROR: pid:Main in ogs_diam_start@init.c:71: ERROR: in '(fd_core_start())' :	Transport endpoint is not connected
+ ((null):0)
+10/14 03:10:33.732: [pcrf] FATAL: pcrf_fd_init: Assertion `rv == 0' failed. (../src/pcrf/pcrf-fd-path.c:37)
+10/14 03:10:33.732: [core] FATAL: backtrace() returned 7 addresses (../lib/core/ogs-abort.c:37)
+./ogs_install/bin/open5gs-pcrfd(+0x7064) [0x555fdb625064]
+./ogs_install/bin/open5gs-pcrfd(+0x57c5) [0x555fdb6237c5]
+./ogs_install/bin/open5gs-pcrfd(+0x4d5e) [0x555fdb622d5e]
+./ogs_install/bin/open5gs-pcrfd(+0x5646) [0x555fdb623646]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf3) [0x7f5eda2e8083]
+./ogs_install/bin/open5gs-pcrfd(+0x4c8e) [0x555fdb622c8e]

@@ -317,8 +317,8 @@ udm:
         scheme: 2
         key: /home/mike/Project/open5gs/ogs_install/etc/open5gs/hnet/secp256r1-6.key
     sbi:
-      - addr: 127.0.0.12
-        port: 7777
+      - addr: 127.0.0.1
+        port: 4440
 
 #
 #  <SBI Client>>
@@ -386,7 +386,7 @@ udm:
 #
 scp:
     sbi:
-      - addr: 127.0.1.10
+      - addr: 127.0.0.1
         port: 7777
 
 #

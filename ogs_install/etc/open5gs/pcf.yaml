@@ -262,11 +262,11 @@ sbi:
 #
 pcf:
     sbi:
-      - addr: 127.0.0.13
-        port: 7777
+      - addr: 127.0.0.1
+        port: 7770
     metrics:
-      - addr: 127.0.0.13
-        port: 9090
+      - addr: 127.0.0.1
+        port: 7771
 
 #
 # scp:
@@ -317,7 +317,7 @@ pcf:
 #
 scp:
     sbi:
-      - addr: 127.0.1.10
+      - addr: 127.0.0.1
         port: 7777
 
 #

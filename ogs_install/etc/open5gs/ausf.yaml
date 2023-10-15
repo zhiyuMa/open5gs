@@ -253,8 +253,8 @@ sbi:
 #
 ausf:
     sbi:
-      - addr: 127.0.0.11
-        port: 7777
+      - addr: 127.0.0.1
+        port: 5550
 
 #
 #  <SBI Client>>
@@ -322,7 +322,7 @@ ausf:
 #
 scp:
     sbi:
-      - addr: 127.0.1.10
+      - addr: 127.0.0.1
         port: 7777
 
 #

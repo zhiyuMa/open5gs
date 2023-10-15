@@ -62,14 +62,14 @@ logger:
 sbi:
     server:
       no_tls: true
-      cacert: /home/mike/Project/open5gs/ogs_install/etc/open5gs/tls/ca.crt
-      key: /home/mike/Project/open5gs/ogs_install/etc/open5gs/tls/smf.key
-      cert: /home/mike/Project/open5gs/ogs_install/etc/open5gs/tls/smf.crt
+#      cacert: /home/mike/Project/open5gs/ogs_install/etc/open5gs/tls/ca.crt
+#      key: /home/mike/Project/open5gs/ogs_install/etc/open5gs/tls/smf.key
+#      cert: /home/mike/Project/open5gs/ogs_install/etc/open5gs/tls/smf.crt
     client:
       no_tls: true
-      cacert: /home/mike/Project/open5gs/ogs_install/etc/open5gs/tls/ca.crt
-      key: /home/mike/Project/open5gs/ogs_install/etc/open5gs/tls/smf.key
-      cert: /home/mike/Project/open5gs/ogs_install/etc/open5gs/tls/smf.crt
+#      cacert: /home/mike/Project/open5gs/ogs_install/etc/open5gs/tls/ca.crt
+#      key: /home/mike/Project/open5gs/ogs_install/etc/open5gs/tls/smf.key
+#      cert: /home/mike/Project/open5gs/ogs_install/etc/open5gs/tls/smf.crt
 
 #
 #  <SBI Server>
@@ -599,20 +599,17 @@ sbi:
 #
 smf:
     sbi:
-      - addr: 127.0.0.4
-        port: 7777
+      - addr: 127.0.0.1
+        port: 2220
     pfcp:
-      - addr: 127.0.0.4
-      - addr: ::1
+      - addr: 127.0.0.1
     gtpc:
-      - addr: 127.0.0.4
-      - addr: ::1
+      - addr: 127.0.0.1
     gtpu:
-      - addr: 127.0.0.4
-      - addr: ::1
+      - addr: 127.0.0.1
     metrics:
-      - addr: 127.0.0.4
-        port: 9090
+      - addr: 127.0.0.1
+        port: 2221
     subnet:
       - addr: 10.45.0.1/16
       - addr: 2001:db8:cafe::1/48
@@ -692,7 +689,7 @@ smf:
 #
 scp:
     sbi:
-      - addr: 127.0.1.10
+      - addr: 127.0.0.1
         port: 7777
 
 #
@@ -808,7 +805,8 @@ scp:
 #
 upf:
     pfcp:
-      - addr: 127.0.0.7
+      - addr: 127.0.0.1
+        port: 3330
 
 #
 #  o Disable use of IPv4 addresses (only IPv6)

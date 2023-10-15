@@ -256,7 +256,7 @@ sbi:
 #
 scp:
     sbi:
-      - addr: 127.0.1.10
+      - addr: 127.0.0.1
         port: 7777
 
 #  <Next hop SCP>
@@ -385,9 +385,8 @@ scp:
 nrf:
     sbi:
       - addr:
-          - 127.0.0.10
-          - ::1
-        port: 7777
+          - 127.0.0.1
+        port: 7778
 
 #
 #  o Disable use of IPv4 addresses (only IPv6)
